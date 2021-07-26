@@ -1,0 +1,22 @@
+@use './../components/mixin' as *;
+@use './../custome' as *;
+.navCus {
+  @include Gradient;
+  li {
+    padding: 0 2rem;
+    a {
+      color: #ffff;
+      padding: 0 0.7rem;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  .button-phon {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+}

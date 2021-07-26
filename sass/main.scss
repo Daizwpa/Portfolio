@@ -1,2 +1,6 @@
 @use 'custome';
 @use 'config';
+@use './sections/navbar';
+@use './components/button';
+@use './components/typographe';
+@use './sections/introSection';

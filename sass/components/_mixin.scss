@@ -1,0 +1,15 @@
+/*
+ * @Author: Ziad Bennadji 
+ * @Date: 2021-07-26 17:42:32 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2021-07-26 17:46:34
+ * @Role: contains all Global Mixin
+ */
+
+// import custome file
+@use './../custome' as *;
+
+// Gradient mixin
+@mixin Gradient {
+  background: linear-gradient(to right, rgba($primary, 1), rgba($secondary, 1));
+}

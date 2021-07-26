@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './assets/css/main.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Fontawesome from './context/fontawesome';
+
+// Provide all icon from fontawesome
+Fontawesome();
 
 ReactDOM.render(
   <React.StrictMode>
